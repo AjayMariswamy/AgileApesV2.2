@@ -120,4 +120,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void launchHowToPlayActivity(View v) {
+
+        Intent myIntent = new Intent(getBaseContext(), HowToPlayActivity.class);
+        startActivity(myIntent);
+
+    }
 }
